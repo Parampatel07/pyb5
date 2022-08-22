@@ -1,0 +1,1 @@
+#write a program to given letter is vowel or not 
