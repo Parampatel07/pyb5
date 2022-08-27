@@ -65,3 +65,9 @@ write a program to print following series (triangular numbers)
 
 write a program to print following series (pentagonal  number)
 1, 5, 12, 22, 35, 51, 70, 92, 117, 145, 176 ... 300
+
+triangle
+------------------------------
+https://i1.faceprep.in/fp/articles/img/55984_1580817324.png
+
+https://i1.faceprep.in/fp/articles/img/46684_1580817324.png
