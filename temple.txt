@@ -1,0 +1,112 @@
+trustee
+----------------------------
+id,email,password,mobile
+
+
+webservice
+
+	insert (register) email & mobile unique 
+	login
+	change_password
+	forgot_password 
+
+
+activity
+	Register 
+	login 
+	change password
+	forgot password
+
+
+photos
+--------------------------------------------------------
+id,templeid,darshandate,title,photo
+
+
+webservice
+
+	select
+	---------------------------------------
+	input: 
+
+activity:
+	Photos
+	FullScreenPhoto
+
+
+videos
+--------------------------------------------------------
+id,templeid,title,videourl
+
+select
+	input: templeid 
+
+activity:
+	Photos
+	FullScreenVideo
+
+choghadiya
+--------------------------------------------------------
+id,name,type,cdate,duration(varchar)
+
+select
+	 
+
+activity:
+	Choghadiya
+
+
+
+muharat
+------------
+id,name,type,duration,mdate
+
+select
+
+activity:
+	muharat
+
+arti
+-----------------------------
+id,title,type(1=text,2=audio,3=video)
+
+select
+
+activity:
+	arti list
+	arti detail 
+
+
+bhajan
+-----------------------------
+id,title,type(1=text,2=audio,3=video)
+
+select
+
+activity:
+	arti list
+	arti detail 
+	
+	
+
+temple
+-----------------------------
+id,trusteeid,templename,state,city,address,
+pincode,history,trustydetail,establish_date,websitename,latitude,longitude,bankname,ifsccode,bankaccountno,branchname,prasaddetail
+
+
+hall
+---------------------------------------
+templeid,title,address,detail
+
+
+
+
+
+
+
+
+
+
+
+
