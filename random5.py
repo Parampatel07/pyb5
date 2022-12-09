@@ -1,15 +1,11 @@
-# Write a porgrame to select luck card from the given list 
+ 559 Bytes
+
+# write a programe to create a quiz of 10 question 3 asked randomly
 import random
-cards = ['spade','heart','clubs','diamonds'];
-user_card=str(input("Select your card "))
-i=True
-lucky_card=0
-while i==True:
-    if user_card==lucky_card:
-        print("cong...")
-        i=False
-    else:
-        print("better luck next time ")
-        print("lucky card was ",lucky_card)
-        user_card=str(input("Select your card "))
-        lucky_card=random.choice(cards)
+
+question=["what is your birth place", "what is your favourite car", "enter your favourite book", "enter your favourite color","enter your favourite sport", "enter your nick name"," enter your mother maiden name","enter your pet name", " enter your first vehicle number", "enter your favourite website"]
+print(random.choice(question))
+print(random.sample(question,3))
+"what is your birth place"==bhavnagar
+if question=="what is your birth place"
+    print(enter your answer)
