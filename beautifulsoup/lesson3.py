@@ -7,7 +7,6 @@ def get_text_from_url(url):
     # print(soup.prettify())
     # text=soup.text
     return soup
-
 city= str(input("Enter name of city to find price "))
 my_url = f'''https://www.bankbazaar.com/fuel/petrol-price-{city}.html'''
 webpage = get_text_from_url(my_url)
