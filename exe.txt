@@ -76,3 +76,7 @@ https://i1.faceprep.in/fp/articles/img/46684_1580817324.png
 random
 ---------------------------
 write a programe to create a quiz of 10 question 3 asked randomly
+
+bs4
+-----------------------------
+Write a programe to get raish/zodaic future from any website 

@@ -1,0 +1,6 @@
+file = open('fruits.txt','w+')
+file.write("Param patel ")
+file.close()
+file = open('fruits.txt','r')
+print(file.read())
+file.close()
